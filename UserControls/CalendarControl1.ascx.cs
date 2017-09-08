@@ -23,8 +23,11 @@ namespace UserControls
             if (Calendar1.SelectedDate < DateTime.Now)
             {
                 TextBox1.Text = Calendar1.SelectedDate.ToString();
-                Calendar1.Visible = false;
+                Calendar1.Visible = false; ; ;
+
+
             }
+
         }
     }
 }
